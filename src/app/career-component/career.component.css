@@ -1,0 +1,94 @@
+.jumbotron {
+     padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0px;
+        border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+        padding-left: 10px;
+            background-color: transparent;
+}
+.jumbotron h1{
+
+      color: #333;
+    margin-top: 5px;
+    text-shadow: none;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+        margin-bottom: 10px;
+        font-family: "Open Sans", Arial, sans-serif;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 0px;
+}
+.list-group-item {
+    border-radius: 0px;
+}
+item.active:hover {
+    z-index: 2;
+    color: #fff;
+}
+.career-title h1{
+  font-weight: 700;
+    font-size: 16px;
+    color: #333;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    line-height: 1.6;
+
+}
+.career-title h2{
+    margin:0px;
+}
+.career-title h3{
+    margin: 0px 0px 5px!important;
+    color: #333;
+        font-size: 13px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.career-title h4{
+    margin:0px;
+}
+.email a:hover {
+        color: #777;
+    text-decoration: underline;
+}
+.email a {
+    color: #ff8a00;
+    text-decoration: underline;
+}
+.email{
+        color: black;
+            font-size: 13px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list-group-item.active, .list-group-item.active:hover {
+
+        color: dimgray;
+}
+.description{
+        color: #4c4c4c;
+}
+.location{
+      margin: 0px 0px 5px!important;
+    color: #333;
+        font-size: 13px;
+    line-height: 1.6;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #fff;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+hr {
+    margin: 30px 0;
+    border: 0;
+    height: 0;
+    border-top: 1px solid #eee;
+    margin-bottom: 0px;
+}

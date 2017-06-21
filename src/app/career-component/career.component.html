@@ -1,0 +1,16 @@
+<div class="jumbotron">
+  <h1>Current Openings</h1>
+</div>
+<div class="container  col-md-12" style="padding: 0px">
+    <div *ngFor="let career of careers" class="list-group">
+      <div class="list-group-item active">
+    <div class="career-title"><h1>{{career.title}} </h1> <h3>Technology: {{career.technology}} <br> Experience: {{career.minexp}}-{{career.maxexp}} years</h3></div><br> 
+    <div class="description">{{career.description}}</div>
+      <div class="location">city: {{career.city}}<br>location: {{career.location}}</div>
+    <div class="email">email: <a href="mailto:{{career.email}}">{{career.email}}</a>
+    <hr></div>
+
+  </div>
+      
+    </div>
+  </div>

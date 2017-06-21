@@ -1,0 +1,29 @@
+.navbar-nav {
+    float:right;
+}
+
+.career{
+padding-left: 0px;
+    padding-right: 30px;
+        background-image: url(http://cesltd.com/images/innerpage-content-bg.gif);
+    background-repeat: repeat-x;
+    overflow: hidden;
+}
+.navbar-default .navbar-nav>li>a {
+    color: aliceblue;
+}
+.container-fluid{
+    border-radius: 5px;
+}
+.navbar-default {
+    background-color: #00467e;
+    margin-bottom: 0px;
+    /* background-color: beige; */
+}
+.nav-pills a{
+    color: gray;
+}
+.page-header{
+        padding-bottom: 9px;
+    margin: 20px 0 10px;
+}
